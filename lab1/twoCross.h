@@ -1,13 +1,30 @@
-//
-//  twoCross.h
-//  lab1
-//
-//  Created by Charlotte  Mu on 2/10/20.
-//  Copyright © 2020 Xiaofan  Mu. All rights reserved.
-//
 
 #ifndef twoCross_h
 #define twoCross_h
+#include <iostream>
 
+using namespace std;
 
-#endif /* twoCross_h */
+int twoCross(int a[], int b[], int sizeA, int sizeB)    //take the array and the size
+{
+    int count = 0;  //to calculate the number of elements
+    int n = 0;  //to check whether we need to output the comma
+    cout << "{";
+    for(int i = 0; i < sizeA; i++)
+    {
+        for(int j = 0; j < sizeB; j++)
+        {
+            cout << "(" << a[i] << "," << b[j] << ")";
+            count++;
+            n = i + j;
+            if (n != sizeA + sizeB -2) //if it is not the last element
+            {
+                cout << ",";
+            }
+        }
+    }
+    cout << "}" << endl;
+    return count;
+}
+
+#endif

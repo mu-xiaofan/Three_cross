@@ -25,6 +25,11 @@
 /* Begin PBXFileReference section */
 		4FBC1C6023F21DCF00176125 /* lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBC1C6323F21DD000176125 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4FBC1C6A23F24BCC00176125 /* twoCross.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoCross.h; sourceTree = "<group>"; };
+		4FBC1C6B23F35E5100176125 /* threeCrosswithparenthesesinthebeginning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threeCrosswithparenthesesinthebeginning.h; sourceTree = "<group>"; };
+		4FBC1C6C23F35EAF00176125 /* checkInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = checkInput.h; sourceTree = "<group>"; };
+		4FBC1C6D23F3648500176125 /* threeCross.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threeCross.h; sourceTree = "<group>"; };
+		4FBC1C6E23F3761900176125 /* RxR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxR.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				4FBC1C6323F21DD000176125 /* main.cpp */,
+				4FBC1C6A23F24BCC00176125 /* twoCross.h */,
+				4FBC1C6B23F35E5100176125 /* threeCrosswithparenthesesinthebeginning.h */,
+				4FBC1C6C23F35EAF00176125 /* checkInput.h */,
+				4FBC1C6D23F3648500176125 /* threeCross.h */,
+				4FBC1C6E23F3761900176125 /* RxR.h */,
 			);
 			path = lab1;
 			sourceTree = "<group>";

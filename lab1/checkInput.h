@@ -1,13 +1,22 @@
-//
-//  checkInput.h
-//  lab1
-//
-//  Created by Charlotte  Mu on 2/11/20.
-//  Copyright © 2020 Xiaofan  Mu. All rights reserved.
-//
-
 #ifndef checkInput_h
 #define checkInput_h
+#include <iostream>
 
+using namespace std;
+
+int checkInput()
+{
+    int x;
+    cin >> x;
+    while (cin.fail())  //if the user entered the character
+    {
+        cout << "Please enter a valid number: ";
+        cin.clear();
+        cin.ignore(1024,'\n');
+        cin >> x;
+    }
+    
+    return x;
+}
 
 #endif /* checkInput_h */
